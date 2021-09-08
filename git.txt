@@ -1,0 +1,27 @@
+Git init - create an empty Git repository
+Git status - check the status of it
+When directory holds some files, git status shows it (files colored red)
+To make these files green, need to tap ‘git add [file name]’
+Git commit -m “[message]” - commit some changes
+Git log - view a history of commits
+Git add . (a dot!) - add all the changes
+
+Secuence of work:
+1. Git init - create empty
+2. Touch - create file in directory
+3. Change files
+4. Git status - shows changed files
+5. Git add - adds changes to git
+6. Git commit -m “[message]” - commits changes and creates a flag
+7.  Git remote add origin [SSH link]
+8. Git remote -v
+
+Git checkout [commit number] - go back to certain commit flag (copy the long sequence of numbers and letters) - it deletes flag that were after the checkouted
+To return the flags we need two commands:
+Git checkout master
+Git branch - see all the branches
+
+Git branch [name] - creates a branch
+Git checkout [branch name] - check a branch
+
+Ssh-add [file directory]

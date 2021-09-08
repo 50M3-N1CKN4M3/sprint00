@@ -1,0 +1,15 @@
+vim - open vim
+I - start to write
+esc - stop to write 
+:q - quit the vim
+:w [file name] - save the file
+:e [file name / directory] - open the file
+/[some text]/ - find the text in a document
+c (double click) - cut selected row (need to exit the writing mode after this)
+p -  paste copied text
+y - copy selected row
+Zsh [the file dragged from a folder] - open a sh file
+Rm - delete (-f to forced delete, -d for not deleting empty directories)
+$@ - to realize sh scripts with variables (just put the value after zsh [filename])
+Echo «[text]» > [filename] - creates a file with some text
+
