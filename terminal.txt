@@ -12,3 +12,6 @@ Zsh [the file dragged from a folder] - open a sh file
 Rm - delete (-f to forced delete, -d for not deleting empty directories)
 $@ - to realize sh scripts with variables (just put the value after zsh [filename])
 Echo «[text]» > [filename] - creates a file with some text
+
+tar -cf [arc name] [directories files] - creates archive
+tar -xf [arc name] - unpacking archive
