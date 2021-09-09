@@ -7,14 +7,14 @@ Git log - view a history of commits
 Git add . (a dot!) - add all the changes
 
 Secuence of work:
-1. Git init - create empty
-2. Touch - create file in directory
-3. Change files
-4. Git status - shows changed files
-5. Git add - adds changes to git
-6. Git commit -m “[message]” - commits changes and creates a flag
-7.  Git remote add origin [SSH link]
-8. Git remote -v
+1. cd ~/.ssh
+2. ssh-keygen -t rsa -b 4096 -C "your_mail@example.com"
+3. ssh-add /Users/ipopova/.ssh/id_rsa
+4. cat -e id_rsa.pub - copy this to GitHub
+5. git clone in an empty folder
+6. Change files
+7. Git add
+8. Git commit -m “[message]”
 
 Git checkout [commit number] - go back to certain commit flag (copy the long sequence of numbers and letters) - it deletes flag that were after the checkouted
 To return the flags we need two commands:
@@ -23,5 +23,3 @@ Git branch - see all the branches
 
 Git branch [name] - creates a branch
 Git checkout [branch name] - check a branch
-
-Ssh-add [file directory]
